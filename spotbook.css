@@ -141,44 +141,32 @@ img {
     width: 90%;
     
 }
-
-.navigation {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
-}
-
-.nav-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.nav-button.active {
-    background-color: #000;
-}
-.horizontal-line {
-            background-color: black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 50vh;
-            margin: 0;
-        }
-        .line {
-            width: 80%;
-            height: 5px;
-            background-color: white;
-        }
-        .container1 {
-  padding: 50px 20px;
-}
+.navbar {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  gap: 15px;
+  }
+  .navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  }
+  /*.navbar a #spotbooking{
+  background-color: #fff;
+  }*/
+  
+  .navbar a:hover {
+  background-color: #fff;
+  color: #000;
+  }
 
 h1 {
   color: #f5c270;
