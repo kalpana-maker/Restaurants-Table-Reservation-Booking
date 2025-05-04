@@ -1,0 +1,698 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .container8 {
+    padding: 40px;
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .top-left {
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-align: right;
+  }
+  
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .since {
+    margin-top: 10px;
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .star {
+    color: #f4c542;
+    font-size: 20px;
+  }
+  
+  .brand {
+    font-size: 160px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .brand .white {
+    color: white;
+  }
+  
+  .brand .yellow {
+    color: #f4c542;
+  }
+  
+  .footer {
+    color: #f4c542;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer span {
+    font-weight: 500;
+  }
+  /* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .brand {
+      font-size: 80px;
+      margin-top: 150px;
+      text-align: center;
+    }
+  
+    .top-left, .top-right {
+      position: static;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .top-right {
+      margin-top: 20px;
+    }
+  
+    .since {
+      justify-content: center;
+      margin: 10px auto 0;
+    }
+  
+    .footer {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  
+  /* Mobile devices (480px and below) */
+  @media (max-width: 480px) {
+    .brand {
+      font-size: 50px;
+      margin-top: 120px;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    .since {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .star {
+      font-size: 16px;
+    }
+  
+    .top-left {
+      font-size: 16px;
+    }
+  
+    .footer {
+      font-size: 14px;
+      padding: 0 10px;
+    }
+  }
+  
+.container {
+position: relative;
+width: 100%;
+max-width: 1000px;
+margin: auto;
+}
+
+.table-image {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.navbar {
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+background-color: rgba(0, 0, 0, 0.8);
+padding: 10px 20px;
+border-radius: 10px;
+gap: 15px;
+}
+.navbar a {
+color: #fff;
+text-decoration: none;
+font-size: 1em;
+padding: 5px 10px;
+border-radius: 5px;
+}
+/*.navbar a #spotbooking{
+background-color: #fff;
+}*/
+
+.navbar a:hover {
+background-color: #fff;
+color: #000;
+}
+
+
+.horizontal-line {
+width: 80%;
+height: 5px;
+background-color: white;
+margin:100px;
+gap:20px;
+align-items: center;
+}
+.container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    margin: 100px;
+}
+.image-section {
+    flex: 1;
+    background-image: url('image/Restaurant\ \(36\).png');
+    background-size: cover;
+    background-position: center;
+}
+.text-section {
+    flex: 1;
+    padding: 20px;
+    color:#333;
+}
+.text-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.text-section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+.text-section .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    }
+/*container*/
+.banner1
+{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    text-align: center;
+
+}
+.main-text {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.sub-text {
+    font-size: 1.5em;
+    font-style: italic;
+}
+.highlight-text {
+    font-size: 1.2em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+/* Layout container */
+.container7{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 20px;
+}
+
+/* Each category styling */
+.category {
+text-align: center;
+width: 30%;
+}
+/* Circular icon styling */
+.icon {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 0 auto 20px;
+}
+
+/* Specific icons */
+.meats {
+background-color: #b30000;
+background-image: url('image\fishicon.jpg'); 
+background-size: cover;
+background-position: center;
+}
+.vegetables {
+background-color: #cc9900;
+background-image: url('image\carrot icon.png'); 
+background-size: cover;
+background-position: center;
+}
+
+.fruit {
+background-color: #009933;
+background-image: url('image\lemon icon.png'); 
+background-size: cover;
+background-position: center;
+}
+/* Heading and paragraph styling */
+h2 {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+p {
+font-size: 1em;
+line-height: 1.5;
+}
+
+
+/* Layout container */
+.container1 {
+display: flex;
+align-items: center;
+
+
+}
+
+/* Horizontal line styling */
+.line {
+width: 100px;
+height: 2px;
+background-color: white;
+}
+
+/* Text styling */
+.text {
+color: gray;
+font-size: 24px;
+margin: 0 20px;
+}
+.container2{
+display: flex;
+height: 100vh;
+width: 100%;
+padding:20px;
+}
+
+.image-section1 {
+flex: 1;
+}
+
+.image-section1 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.text-section1 {
+flex: 1;
+padding: 80px 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.text-section1 h1 {
+font-size: 3rem;
+margin-bottom: 30px;
+font-weight: 500;
+}
+
+.text-section1 p {
+font-size: 1rem;
+line-height: 1.8;
+color: #ddd;
+max-width: 650px;
+}
+
+
+
+/*grid2*/
+
+.container3 {
+display: flex;
+width: 90%;
+max-width: 1200px;
+height: 90vh;
+padding:20px;
+}
+
+.left-panel {
+flex: 1;
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.left-panel h1 {
+font-size: 3rem;
+margin-bottom: 30px;
+}
+
+.left-panel p {
+font-size: 1rem;
+line-height: 1.8;
+color: #ccc;
+}
+
+.right-panel {
+flex: 1;
+overflow: hidden;
+}
+
+.right-panel img {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container4{
+display: flex;
+height: 100vh;
+width: 100%;
+padding:20px;
+}
+
+.image-section2 {
+flex: 1;
+}
+
+.image-section2 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.text-section2 {
+flex: 1;
+padding: 80px 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.text-section2 h1 {
+font-size: 3rem;
+margin-bottom: 30px;
+font-weight: 500;
+}
+
+.text-section2 p {
+font-size: 1rem;
+line-height: 1.8;
+color: #ddd;
+max-width: 650px;
+}
+/*grid4*/
+.container5 {
+display: flex;
+flex-direction: row;
+min-height: 100vh;
+}
+
+.text-section3 {
+flex: 1;
+padding: 80px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.text-section3 h1 {
+font-size: 3rem;
+margin-bottom: 2rem;
+}
+
+.text-section3 p {
+font-size: 1rem;
+line-height: 1.8;
+color: #d0d0d0;
+max-width: 90%;
+}
+
+.image-section3 {
+flex: 1;
+overflow: hidden;
+}
+
+.image-section3 img {
+width: 100%;
+height: auto;
+padding:20px;
+
+}
+.banner2
+{
+display: flex;
+align-items: center;
+color: white;
+font-family: Arial, sans-serif;
+font-size: 2em;
+}
+.line {
+flex-grow: 1;
+height: 2px;
+background-color: white;
+}
+.text {
+margin: 0 20px;
+}
+/*grid container*/
+.container6{
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-bottom: 20px;
+    
+    padding: 15px;
+}
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.item-details {
+    flex-grow: 1;
+}
+.item-details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+.item-details p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.item-details .price {
+    color: red;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.item-details .discounted-price {
+    color: green;
+}
+.view-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.logo1{
+   
+    text-align: right;
+}
+
+footer {
+background-color: #000;
+padding: 20px 0;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.footer-section {
+flex: 1;
+padding: 0 20px;
+}
+
+.footer-section h2 {
+color: #ffcc00;
+font-size: 1.2em;
+}
+
+.footer-section p {
+font-size: 0.9em;
+line-height: 1.6;
+color:aliceblue
+}
+
+.footer-section p:last-child {
+font-size: 0.8em;
+color:aliceblue;
+}
+
+.line-container {
+width: 90%; /* Controls the total space used */
+padding: 5% 5%; /* Space on both sides */
+}
+
+.line {
+border-top: 2px solid #333; /* You can change thickness and color */
+width: 100%;
+}
+/* Responsive styles for tablets and phones */
+@media (max-width: 768px) {
+.banner, .banner1, .banner2 {
+padding: 20px;
+text-align: center;
+}
+
+.main-text {
+font-size: 2em;
+}
+
+.sub-text, .highlight-text, .bottom-text, .top-text {
+font-size: 1.2em;
+}
+
+.container, .container2, .container3, .container4, .container5 {
+flex-direction: column;
+margin: 20px;
+height: auto;
+}
+
+.container6, .container7 {
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.menu-item {
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.menu-item img {
+width: 100px;
+height: 100px;
+margin-bottom: 10px;
+}
+
+.item-details {
+width: 100%;
+}
+
+.navbar {
+flex-direction: column;
+bottom: 10px;
+padding: 10px;
+}
+
+.footer-container {
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.text-section, .text-section1, .text-section2, .text-section3 {
+padding: 40px 20px;
+}
+
+.image-section img, 
+.image-section1 img, 
+.image-section2 img, 
+.image-section3 img {
+height: auto;
+}
+
+.left-panel, .right-panel {
+padding: 20px;
+}
+
+h1 {
+font-size: 2em;
+}
+
+p {
+font-size: 0.9em;
+}
+}
+
+/* More aggressive adjustments for small mobile screens */
+@media (max-width: 480px) {
+.main-text {
+font-size: 1.8em;
+}
+
+.sub-text, .highlight-text, .bottom-text, .top-text {
+font-size: 1em;
+}
+
+.badge {
+font-size: 1em;
+padding: 8px 15px;
+}
+
+.navbar a {
+font-size: 0.9em;
+padding: 5px;
+}
+
+.text {
+font-size: 1em;
+}
+
+.line {
+width: 50px;
+margin: 10px auto;
+}
+}

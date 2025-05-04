@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Queen Banner</title>
+    <link rel="stylesheet" href="spotbook.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="top-left">Burger Queen Restaurant</div>
+    <div class="top-right">
+      <div class="logo">👑 Burger Queen</div>
+      <div class="since">
+        <span class="star">✴</span>
+        <span>Since 1947</span>
+      </div>
+    </div>
+    <h1 class="brand">
+      <span class="white">Burger</span>
+      <span class="yellow">Queen</span>
+    </h1>
+    <div class="footer">
+      EAT // <span>RESTAURANT</span> // <span>TABLE RESERVATION</span> // <span>TAKE AWAY</span>
+    </div>
+  </div>
+
+    <div class="cafe-container">
+        <img src="image/Restaurant (32).png" alt="Le Nemours Cafe">
+        <div class="navigation">
+            <button class="nav-button">Home</button>
+            <button class="nav-button active">Spot Booking</button>
+            <button class="nav-button">Food Menu</button>
+            <button class="nav-button">About</button>
+        </div>
+    </div>
+   <div class="horizontal-line">
+    <div class="line"></div>
+   </div>
+    
+   <div class="container1">
+    <h1>Restaurant booking</h1>
+    <h2>Opening Hours</h2>
+    
+    <div class="schedule">
+      <div class="day-row">
+        <span class="day gold">MON<span class="white">DAY</span></span>
+        <span class="status closed">CLOSED</span>
+      </div>
+      
+      <div class="day-row">
+        <span class="day gold">TUES<span class="white">DAY</span></span>
+        <span class="dash">–</span>
+        <span class="day gold">FRI<span class="white">DAY</span></span>
+        <span class="hours">10 am - 8 pm</span>
+      </div>
+
+      <div class="day-row">
+        <span class="day gold">SATUR<span class="white">DAY</span></span>
+        <span class="dash">–</span>
+        <span class="day gold">SUN<span class="white">DAY</span></span>
+        <span class="hours">7 am - 8 pm</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <h1>Book a table</h1>
+    <p class="description">
+      Our dining atmosphere is casual and comfortable. To reflect this environment, we maintain a formal dress.
+    </p>
+    <form id="bookingForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" required>
+
+      <label for="guests">Number of guests</label>
+      <input type="number" id="guests" name="guests" min="1" placeholder="0" required>
+
+      <div class="datetime">
+        <div class="date">
+          <label for="date">Date</label>
+          <input type="text" id="date" name="date" placeholder="DD/MM/YY" required>
+        </div>
+        <div class="time">
+          <label for="time">Time</label>
+          <input type="text" id="time" name="time" placeholder="TIME" required>
+        </div>
+      </div>
+      <button type="submit" class="book-btn">BOOK A TABLE</button>
+    </form>
+  </div>
+ 
+  <h1>Calories Energy Balance</h1>
+
+  <div class="card-container">
+
+    <div class="card">
+      <img src="image/Restaurant (45).png" alt="Vegetable Stew">
+      <h2>Vegetable Stew</h2>
+      <button onclick="viewFood('Vegetable Stew')">View food</button>
+    </div>
+
+    <div class="card">
+      <img src="image/Restaurant (46).png" alt="Morning Breakfast">
+      <h2>Morning Breakfast</h2>
+      <button onclick="viewFood('Morning Breakfast')">View food</button>
+    </div>
+
+    <div class="card">
+      <img src="image/Restaurant (47).png" alt="Avocado Semiya">
+      <h2>Avocado Semiya</h2>
+      <button onclick="viewFood('Avocado Semiya')">View food</button>
+    </div>
+
+  </div>
+
+  <div class="Banner3">
+    <img src="image/Restaurant (37).png">
+  </div>
+
+  <footer class="footer">
+    <div class="logo1">
+        <img src="image/Restaurant (48).png" alt="Burger Queen Logo">
+    </div>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h2><span>/</span>ABOUT US</h2>
+        <p>The five-star Restaurant in a beautiful Chennai city with a modern restaurant, conference-hall.</p>
+      </div>
+      <div class="footer-section">
+        <h2><span>/</span>NEWS</h2>
+        <p>Sign up to our newsletter not to miss exclusive offers and information about the upcoming events.</p>
+      </div>
+      <div class="footer-section">
+        <h2><span>/</span>SOCIAL</h2>
+        <div class="social-links">
+          <a href="#">FACEBOOK</a>
+          <a href="#">INSTAGRAM</a>
+          <a href="#">TWITTER</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>©2025 All rights reserved. Burger Queen</p>
+    </div>
+  </footer>
+  
+ 
+<script>
+  document.getElementById('bookingForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const guests = document.getElementById('guests').value;
+    const date = document.getElementById('date').value;
+    const time = document.getElementById('time').value;
+  
+    console.log(`Booking Details:
+      Name: ${name}
+      Guests: ${guests}
+      Date: ${date}
+      Time: ${time}
+    `);
+  
+    alert('Table booked successfully!');
+  });
+
+  function viewFood(foodName) {
+  alert('Viewing details for: ' + foodName);
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Burger Queen Restaurant Login</title>
+  <link rel="stylesheet" href="login.css">
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-section">
+      <h2>Welcome to</h2>
+      <h1>Burger Queen Restaurant</h1>
+    </div>
+    <div class="right-section">
+      <form class="login-form" onsubmit="return handleLogin(event)">
+        <p class="greeting">Hello !</p>
+        <p class="sub-greeting">Good Morning</p>
+        <h3><span class="highlight">Log in</span> to Your Account</h3>
+        <input type="email" placeholder="Email address" required />
+        <input type="password" placeholder="Password" required />
+        <div class="form-footer">
+          <a href="#">Forget password</a>
+        </div>
+        <button type="submit">Log in</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    function handleLogin(event) {
+  event.preventDefault();
+  alert("Logging in...");
+  // Add actual login logic here if needed
+  return false;
+}
+
+function handleLogin(event) {
+  event.preventDefault();
+  // Redirect to the restaurant main page after login
+  window.location.href = "Home.html";
+}
+</script>
+  
+</body>
+</html>

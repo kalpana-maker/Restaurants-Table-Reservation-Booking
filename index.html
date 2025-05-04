@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Queen - Indian Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="image/Restaurant (48).png">
+        <a href="reservation.html" class="reservation">Reservation</a>
+    </header>
+
+    <div class="container">
+        <div class="text-section">
+            <h1>
+                <span class="red">The pure taste of</span>
+                <span class="black">INDIAN</span>
+            </h1>
+            <p>
+                Step into a world of rich aromas and vibrant flavors at our Indian restaurant, where tradition meets taste.
+                Our menu celebrates the diverse culinary heritage of India.
+            </p>
+            <button class="btn-login">Login</button>
+            
+        </div>
+        
+    </div>
+
+    <footer>
+        +91 987654321<br>
+        <img src="image/Restaurant (48).png">
+    </footer>
+
+   
+      
+    
+
+<script>
+    document.querySelector('.btn-login').addEventListener('click', function() {
+            alert("Redirecting to login page...");
+        });
+
+    document.querySelector('.btn-login').addEventListener('click', function() {
+        window.location.href = 'loginpage.html'; // Assuming your login page is saved as login.html
+    });
+</script>
+</body>
+</html>

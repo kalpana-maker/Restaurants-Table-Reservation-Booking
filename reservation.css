@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .container3 {
+    padding: 40px;
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .top-left {
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-align: right;
+  }
+  
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .since {
+    margin-top: 10px;
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .star {
+    color: #f4c542;
+    font-size: 20px;
+  }
+  
+  .brand {
+    font-size: 160px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .brand .white {
+    color: white;
+  }
+  
+  .brand .yellow {
+    color: #f4c542;
+  }
+  
+  .footer {
+    color: #f4c542;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer span {
+    font-weight: 500;
+  }
+  /* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .brand {
+      font-size: 80px;
+      margin-top: 150px;
+      text-align: center;
+    }
+  
+    .top-left, .top-right {
+      position: static;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .top-right {
+      margin-top: 20px;
+    }
+  
+    .since {
+      justify-content: center;
+      margin: 10px auto 0;
+    }
+  
+    .footer {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  
+  /* Mobile devices (480px and below) */
+  @media (max-width: 480px) {
+    .brand {
+      font-size: 50px;
+      margin-top: 120px;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    .since {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .star {
+      font-size: 16px;
+    }
+  
+    .top-left {
+      font-size: 16px;
+    }
+  
+    .footer {
+      font-size: 14px;
+      padding: 0 10px;
+    }
+  }
+  
+  
+  .container {
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+      margin: auto;
+  }
+  
+  .table-image {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+  .navbar {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 10px 20px;
+      border-radius: 10px;
+      gap: 15px;
+  }
+  .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+      padding: 5px 10px;
+      border-radius: 5px;
+  }
+  /*.navbar a #spotbooking{
+  background-color: #fff;
+  }*/
+  
+  .navbar a:hover {
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .line 
+  {
+      width: 80%; 
+      height: 5px; 
+      background-color: white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin:20px;
+      
+  }
+  
+  
+  
+  .container1 {
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    color: #f5c270;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .day-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+  }
+  
+  .day {
+    font-weight: bold;
+  }
+  
+  .gold {
+    color: #f5c270;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .status.closed {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .hours {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .dash {
+    color: white;
+    font-size: 20px;
+  }
+  .container2 {
+              max-width: 900px;
+              
+              border-radius: 10px;
+              padding: 20px;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin:20px;
+          }
+          .image {
+              flex: 1;
+              margin-right: 20px;
+              width:50%;
+              
+          }
+          .image img {
+              width: 100%;
+              border-radius: 10px;
+          }
+          .content {
+              flex: 1;
+          }
+          .title {
+              font-size: 2em;
+              margin-bottom: 10px;
+          }
+          .price {
+              font-size: 1.5em;
+              color: #f0a500;
+              margin: 10px 0;
+          }
+          .description {
+              font-size: 1em;
+              line-height: 1.5;
+              margin-bottom: 20px;
+          }
+          .tagline {
+              font-size: 1.2em;
+              margin-bottom: 20px;
+              color: #ffa500;
+          }
+          .button {
+              background-color: #f0a500;
+              color: #000;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 5px;
+              font-size: 1em;
+              cursor: pointer;
+          }
+          .button:hover {
+              background-color: #ffcc00;
+          }
+      
+          .image-container {
+              
+              width: 90%;
+              max-width: 800px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 100vh;
+              padding:20px;
+              margin:20px;
+  
+          }
+  
+          .logo1{
+              margin-top: 200px;
+              text-align: right;
+          }
+          
+          footer {
+      background-color: #000;
+      padding: 20px 0;
+  }
+  
+  .footer-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  .footer-section {
+      flex: 1;
+      padding: 0 20px;
+  }
+  
+  .footer-section h2 {
+      color: #ffcc00;
+      font-size: 1.2em;
+  }
+  
+  .footer-section p {
+      font-size: 0.9em;
+      line-height: 1.6;
+      color:aliceblue
+  }
+  
+  .footer-section p:last-child {
+      font-size: 0.8em;
+      color:aliceblue;
+  }
+  
+  .line-container {
+        width: 90%; /* Controls the total space used */
+        padding: 5% 5%; /* Space on both sides */
+      }
+  
+      .line {
+        border-top: 2px solid #333; /* You can change thickness and color */
+        width: 100%;
+      }

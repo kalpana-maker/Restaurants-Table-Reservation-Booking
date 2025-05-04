@@ -1,0 +1,429 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  padding: 40px;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.top-left {
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  text-align: right;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  color: white;
+}
+
+.since {
+  margin-top: 10px;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 40px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.star {
+  color: #f4c542;
+  font-size: 20px;
+}
+
+.brand {
+  font-size: 160px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.brand .white {
+  color: white;
+}
+
+.brand .yellow {
+  color: #f4c542;
+}
+
+.footer {
+  color: #f4c542;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.footer span {
+  font-weight: 500;
+}
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .brand {
+    font-size: 80px;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .top-left, .top-right {
+    position: static;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .top-right {
+    margin-top: 20px;
+  }
+
+  .since {
+    justify-content: center;
+    margin: 10px auto 0;
+  }
+
+  .footer {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* Mobile devices (480px and below) */
+@media (max-width: 480px) {
+  .brand {
+    font-size: 50px;
+    margin-top: 120px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .since {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .star {
+    font-size: 16px;
+  }
+
+  .top-left {
+    font-size: 16px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+
+.cafe-container {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 90%;
+    
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav-button.active {
+    background-color: #000;
+}
+.horizontal-line {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+        }
+        .line {
+            width: 80%;
+            height: 5px;
+            background-color: white;
+        }
+        .container1 {
+  padding: 50px 20px;
+}
+
+h1 {
+  color: #f5c270;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.day-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 22px;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.gold {
+  color: #f5c270;
+}
+
+.white {
+  color: white;
+}
+
+.status.closed {
+  color: red;
+  font-weight: bold;
+}
+
+.hours {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.dash {
+  color: white;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container1 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 1px solid #d2ae7e;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.datetime {
+  display: flex;
+  gap: 20px;
+}
+
+.datetime .date,
+.datetime .time {
+  flex: 1;
+}
+
+.book-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #f5d4a1;
+  border: none;
+  border-radius: 30px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+  background-color: #e2c18e;
+}
+
+
+h1 {
+  margin-top: 30px;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 20px 0 10px;
+  font-size: 1.5rem;
+}
+
+.card button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  background-color: #555;
+}
+.Banner3{
+   text-align: center;
+   margin:20px;
+   padding:20px;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.logo1{
+              
+   text-align: right;
+
+}
+.logo1 img{
+    width:50%;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  border-top: 1px solid #333;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+.footer-section {
+  max-width: 300px;
+  text-align: left;
+}
+
+.footer-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 span {
+  color: #ffc107; /* yellow color for the slash */
+  margin-right: 5px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #aaa;
+}
